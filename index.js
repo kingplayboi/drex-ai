@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐃𝐑𝐄𝐗_𝐀𝐈';
+let botname = process.env.BOTNAME || '𝐁𝐞𝐥𝐭𝐚𝐡';
 
 const owner = process.env.DEV || '254102074064'; // This will send a notification once the bot reconnects
 const {
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Hail to ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `deployed by ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
